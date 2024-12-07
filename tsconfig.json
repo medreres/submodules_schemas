@@ -1,12 +1,9 @@
-{
+{ 
+  "extends": "./packages/config/tsconfig.json",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "node",
-  },
-  "exclude": ["node_modules"],
-  "ts-node": {
-    "esm": true,
-    "experimentalSpecifierResolution": "node"
+    "baseUrl": "./",
+    "paths": {
+      "@schemas": ["./packages/schemas/src/index.ts"],
+    }                                 
   }
 }

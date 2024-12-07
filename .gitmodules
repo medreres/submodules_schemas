@@ -1,0 +1,3 @@
+[submodule "packages/config"]
+	path = packages/config
+	url = https://github.com/medreres/submodules_config
